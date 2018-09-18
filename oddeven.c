@@ -7,7 +7,7 @@ int main()
     scanf("%d", &number);
     if(number % 2 == 0)
         printf("%d is even.", number);
-    elseif(number % 2!==0)
+    else if(number % 2!==0)
         printf("%d is odd.", number);
     else
         printf("invalid number");
